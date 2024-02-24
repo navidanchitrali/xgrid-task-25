@@ -23,7 +23,7 @@ class ProductScreen extends StatelessWidget {
                     return Container(
                       color: Colors.red,
                       height: 100,
-                      child: (Text(model.products!.first!.name!)),
+                      child: (Text(model.products![i!].name!)),
                     );
                   }),
             )
